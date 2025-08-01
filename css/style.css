@@ -1,0 +1,65 @@
+/* Creado por Dev Principal en develop. Modificado por cada Dev en su rama */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #444;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Galería */
+.galeria {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+.galeria img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Botón */
+button {
+    padding: 0.5em;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f5f;
+}
